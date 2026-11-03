@@ -10,3 +10,4 @@ langchain-community
 rank-bm25
 numpy
 scipy
+langchain_groq
