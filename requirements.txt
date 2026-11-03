@@ -8,3 +8,5 @@ sentence-transformers
 lxml
 langchain-community
 rank-bm25
+numpy
+scipy
