@@ -6,3 +6,5 @@ langchain-chroma
 langchain-huggingface
 sentence-transformers
 lxml
+langchain-community
+rank-bm25
