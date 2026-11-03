@@ -214,6 +214,11 @@ def initialize_rag():
         search_kwargs={"k": 5}
     )
 
+    print("Total documents retrieved:", len(documents))
+
+    if not documents:
+        raise ValueError("No documents found in ChromaDB. Check vector database loading.")
+
     # BM25 retriever
     bm25_retriever = BM25Retriever.from_documents(documents)
     bm25_retriever.k = 5
